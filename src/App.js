@@ -18,13 +18,13 @@ function App() {
 
   const navigate = useNavigate();
 
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-      navigate("/");
-    }, 1000);
-  }, []);
+  // useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //     navigate("/");
+  //   }, 1000);
+  // }, []);
   return (
     <>
       <RouterScrollTop />
