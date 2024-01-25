@@ -1,7 +1,6 @@
 {
   "name": "peter-gorner",
-  "homepage": "https://mostspace.github.io/daniel-portfolio/",
-  "version": "1.5.0",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
