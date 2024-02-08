@@ -14,7 +14,7 @@ import cv from "../../cv/cv.pdf";
 import { FormattedMessage } from "react-intl";
 
 /* Img */
-import imgabout from "../../img/peter_h.jpg";
+import imgabout from "../../img/Kano.png";
 
 const About = () => {
   function readMore() {

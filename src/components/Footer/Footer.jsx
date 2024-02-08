@@ -15,7 +15,7 @@ const Footer = () => {
           <p>
             <FormattedMessage
               id="footer-infos"
-              defaultMessage="Page created by Peter"
+              defaultMessage="Page created by Kano"
             />
           </p>
           <p>&copy; {fecha}. All Rights Reserved.</p>

@@ -38,8 +38,8 @@ const Header = () => {
         onClick={menuDesplegable}
       ></div>
 
-      <a href="/peter-portfolio" className="logo">
-        <span>Peter Gorner</span>
+      <a href="/Kano-portfolio" className="logo">
+        <span>Chiyo Kano</span>
       </a>
 
       <nav className="navbar">

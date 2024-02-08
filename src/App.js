@@ -31,8 +31,8 @@ function App() {
       {loading ? (
         <div className="loading-pag">
           <div className="loader">
-            <span>Peter Gorner</span>
-            <span>Peter Gorner</span>
+            <span>Chiyo Kano</span>
+            <span>Chiyo Kano</span>
           </div>
         </div>
       ) : (
