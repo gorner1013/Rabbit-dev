@@ -38,7 +38,7 @@ const Footer = () => {
             <i className="fab fa-github"></i>
           </a>
           <a
-            // href="mailto:Devel_Master@outlook.com"
+            // href="mailto:Develo_Master@outlook.com"
             href={Constant.GMAIL_ADDRESS}
             target="_blank"
             rel="noopener noreferrer"

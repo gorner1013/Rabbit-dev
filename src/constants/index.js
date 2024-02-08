@@ -9,7 +9,7 @@ export const ABOUT_ME =
 // Contact Info
 export const SKYPE_ADDRESS = "live:.cid.b43540a77d249f4a";
 export const GITHUB_ADDRESS = "https://github.com/whitenight1201";
-export const GMAIL_ADDRESS = "mailTo:Devel_Master@outlook.com";
+export const GMAIL_ADDRESS = "mailTo:Develo_Master@outlook.com";
 export const DISCORD_ADDRESS = "https://discord.gg/develomaster_02247";
 export const SLACK_ADDRESS = "https://t.me/dev_Newstar";
 export const INSTAGRAM_ADDRESS = "";
