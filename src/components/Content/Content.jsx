@@ -1,6 +1,6 @@
 import React from "react";
 import "./Content.css";
-import * as Constant from '../../constants';
+import * as Constant from "../../constants";
 import ParticleHeaderBg from "../ParticlesBg/ParticlesHeader/ParticleHeaderBg";
 
 /* ReactScroll */
@@ -15,12 +15,18 @@ const Content = () => (
     <section className="inicio" id="inicio">
       <div className="titulo">
         <h1 data-aos="fade-up" data-aos-delay="500">
-          <FormattedMessage id="namess" defaultMessage="Web & Mobile Development | UI & UX Design" />
+          <FormattedMessage
+            id="namess"
+            defaultMessage="Web およびモバイル開発 | UI および UX デザイン"
+          />
         </h1>
-        <p className="h_intro">With my journey commencing in 2017, I have established me as an expert in Web & App Development, Web Marketing, and Design.</p>
+        <p className="h_intro">
+          2017 年にこの仕事に就いて以来、私は Web およびアプリ開発、Web
+          マーケティング、デザインの専門家としての地位を確立してきました。
+        </p>
 
         <div className="wrapper">
-          <a
+          {/* <a
             className="button"
             href={Constant.SKYPE_ADDRESS}
             target="_blank"
@@ -32,6 +38,32 @@ const Content = () => (
               <i className="fab fa-skype"></i>
             </div>
             <span>Skype</span>
+          </a> */}
+          <a
+            className="button"
+            href={Constant.GMAIL_ADDRESS}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-aos="fade-up"
+            data-aos-delay="1200"
+          >
+            <div className="icon">
+              <i className="fab fas fa-envelope"></i>
+            </div>
+            <span>Gmail</span>
+          </a>
+          <a
+            className="button"
+            href={Constant.SKYPE_ADDRESS}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-aos="fade-up"
+            data-aos-delay="1200"
+          >
+            <div className="icon">
+              <i className="fab fa-skype"></i>
+            </div>
+            <span>Chatwork</span>
           </a>
           <a
             className="button"

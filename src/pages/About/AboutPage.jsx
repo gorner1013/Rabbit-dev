@@ -14,7 +14,7 @@ import cv from "../../cv/cv.pdf";
 import { FormattedMessage } from "react-intl";
 
 /* Img */
-import imgabout from "../../img/Kano.png";
+import imgabout from "../../img/Rabbit_dev.jpg";
 
 const About = () => {
   function readMore() {
@@ -26,7 +26,7 @@ const About = () => {
     if (parrafoActive.classList.contains("show")) {
       btnHide.innerHTML = "↑";
     } else {
-      btnHide.innerHTML = "Read more";
+      btnHide.innerHTML = "続きを読む";
     }
   }
 
@@ -41,7 +41,7 @@ const About = () => {
           <div className="sobre-mi-container" id="intro_section">
             <div className="sobre-mi-img-container">
               <img src={imgabout} alt="" className="sobre-mi-img" />    
-              <div className="cv_button">
+              {/* <div className="cv_button">
                 <a
                   href={cv}
                   target="_blank"
@@ -51,23 +51,23 @@ const About = () => {
                 >
                   <FormattedMessage id="btn-cv" defaultMessage="Download CV" />
                 </a> 
-              </div>     
+              </div>      */}
             </div>
             <div className="sobre-mi-info">
-              <p>My mission is to continually surpass previous achievements, ensuring that every project I work on is even better than before. I take enormous pride in my outstanding track record of boasting an impressive 30% repeat hire rate and maintaining long-term relationships with my clients spanning over 7 years. For me, this is not just a job. It's my way of life.</p>
-              <p>With a passion for innovation and commitment to excellence, I combine cutting-edge technology, creative design, and strategic marketing to deliver exceptional results. I work tirelessly to bring my clients' vision to life, creating custom solutions that meet their unique needs and exceed their expectations.</p>
-              <p>Whether you need an attractive website, powerful applications, or a comprehensive digital marketing strategy, I am your trusted partner. I understand the importance of staying ahead of the curve in today's rapidly evolving digital environment, and I use my expertise to help businesses succeed in the online world.</p>
-              <p>Let's create something special together.</p>
+              <p>私の使命は、常に過去の業績を超え、私が取り組むすべてのプロジェクトが以前よりもさらに良いものとなるようにすることです。私は、30% という驚異的なリピート率を誇り、7 年以上にわたってクライアントと長期的な関係を維持してきたという素晴らしい実績に大きな誇りを持っています。私にとって、これは単なる仕事ではありません。私の生き方なのです。</p>
+              <p>革新への情熱と卓越性へのこだわりをもって、最先端のテクノロジー、クリエイティブなデザイン、戦略的マーケティングを組み合わせて、卓越した成果を生み出しています。私は、クライアントのビジョンを実現するためにたゆまぬ努力を重ね、クライアント独自のニーズを満たし、期待を上回るカスタム ソリューションを生み出しています。</p>
+              <p>魅力的な Web サイト、強力なアプリケーション、包括的なデジタル マーケティング戦略など、何が必要であっても、私は信頼できるパートナーです。急速に進化する今日のデジタル環境において、常に先手を打つことの重要性を理解しており、専門知識を活用して、オンラインの世界で企業が成功できるようお手伝いします。</p>
+              <p>一緒に何か特別なものを作りましょう。</p>
               <div className="btn-info">
                 <div className="custom-btn btn-codigo" onClick={readMore}>
-                  <span>Read more</span>
+                  <span>続きを読む</span>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="skill-seccion">
-            <h1 className="heading">Skills</h1>
+            <h1 className="heading">スキル</h1>
             <div className="skill-container">
               <div
                 className="skill-card"

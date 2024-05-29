@@ -10,10 +10,10 @@ import { FormattedMessage } from "react-intl";
 const Contact = () => (
   <section className="contactos" id="contactos">
     <h2 className="heading">
-      <FormattedMessage id="contact" defaultMessage="Contact Me" />
+      <FormattedMessage id="contact" defaultMessage="私に連絡して" />
     </h2>
     <h3 className="titulo" data-aos="fade-left" data-aos-delay="300">
-      <FormattedMessage id="contact-info" defaultMessage="Contact me by: " />
+      <FormattedMessage id="contact-info" defaultMessage="連絡先: " />
       <Typical
         className="site-contacto"
         loop={Infinity}
@@ -62,7 +62,7 @@ const Contact = () => (
           <span></span>
           <span className="fab fa-skype"></span>
         </div>
-        <div className="text">Skype</div>
+        <div className="text">Chatwork</div>
       </a>
       <a
         href={Constant.SLACK_ADDRESS}

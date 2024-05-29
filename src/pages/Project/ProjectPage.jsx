@@ -1,23 +1,23 @@
-import React, { useState } from 'react'
-import './ProjectPage.css';
+import React, { useState } from "react";
+import "./ProjectPage.css";
 
 /* Modal */
 import Modal from "./Modal";
 
 /* React router */
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 
 /* Componet */
-import HeaderPage from '../../components/Header/HeaderPage';
-import Footer from '../../components/Footer/Footer';
+import HeaderPage from "../../components/Header/HeaderPage";
+import Footer from "../../components/Footer/Footer";
 import ParticleBackground from "../../components/ParticlesBg/ParticleBackground";
-import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
 /* Multi idioma */
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage } from "react-intl";
 
 /* Img */
-const proyectsImg = require.context('../../img', true);
+const proyectsImg = require.context("../../img", true);
 
 const Project = () => {
   const [estadoModal17, cambiarEstadoModal17] = useState(false);
@@ -34,7 +34,6 @@ const Project = () => {
 
   return (
     <div>
-
       <HeaderPage />
 
       <ParticleBackground />
@@ -42,27 +41,18 @@ const Project = () => {
       <main>
         <section className="proyectos mas-proyect" id="proyectos">
           <h1 className="heading" data-section="Nav" data-value="projects">
-            <FormattedMessage
-              id='projects'
-              defaultMessage='Projects'
-            />
+            <FormattedMessage id="projects" defaultMessage="プロジェクト" />
           </h1>
           <nav className="navbar nav-proj">
             <NavLink to="/project" offset={-150} duration={500}>
-              <FormattedMessage
-                id='site-web'
-                defaultMessage='websites'
-              />
+              <FormattedMessage id="site-web" defaultMessage="ウェブとアプリ" />
             </NavLink>
-            <NavLink to="/project/app" offset={-150} duration={500}>
-              Apps
+            {/* <NavLink to="/project/app" offset={-150} duration={500}>
+              アプリ
             </NavLink>
             <NavLink to="/project/design" offset={-150} duration={500}>
-              <FormattedMessage
-                  id='design'
-                  defaultMessage='design'
-              />
-            </NavLink>
+              <FormattedMessage id="design" defaultMessage="デザイン" />
+            </NavLink> */}
             {/* <NavLink to="/project/game" offset={-150} duration={500}>
               <FormattedMessage
                 id='games'
@@ -74,60 +64,112 @@ const Project = () => {
 
         <section className="projects__grid paginas-web">
           <div className="projects__item">
-            <a href="https://timetile.store/" target="_blank">
-              <img src={proyectsImg(`./pro_web/project1.png`)} alt="" className="projects__img" />
+            <a href="https://www.care-plus.jp/staff/" target="_blank">
+              <img
+                src={proyectsImg(`./pro_web/1-1.png`)}
+                alt=""
+                className="projects__img"
+              />
             </a>
           </div>
           <div className="projects__item">
-            <a href="https://coinzix.com/" target="_blank">
-              <img src={proyectsImg(`./pro_web/project2.png`)} alt="" className="projects__img" />
+            <a href="https://d35v8eayqoikqx.cloudfront.net/index.html" target="_blank">
+              <img
+                src={proyectsImg(`./pro_web/2-2.png`)}
+                alt=""
+                className="projects__img"
+              />
             </a>
           </div>
           <div className="projects__item">
-            <a href="https://composable.finance/" target="_blank">
-              <img src={proyectsImg(`./pro_web/project3.png`)} alt="" className="projects__img" />
+            <a href="https://kirihare-web.web.app/" target="_blank">
+              <img
+                src={proyectsImg(`./pro_web/3-1.png`)}
+                alt=""
+                className="projects__img"
+              />
             </a>
           </div>
           <div className="projects__item">
-            <a href="https://www.sedonatires.com/" target="_blank">
-              <img src={proyectsImg(`./pro_web/project4.png`)} alt="" className="projects__img" />
+            <a href="https://sakura-a-h.com/" target="_blank">
+              <img
+                src={proyectsImg(`./pro_web/4-1.png`)}
+                alt=""
+                className="projects__img"
+              />
             </a>
           </div>
           <div className="projects__item">
-            <a href="https://tesla.coinzix.com/" target="_blank">
-              <img src={proyectsImg(`./pro_web/project5.png`)} alt="" className="projects__img" />
-            </a>
+            
+              <img
+                src={proyectsImg(`./pro_web/5-1.png`)}
+                alt=""
+                className="projects__img"
+              />
+            
           </div>
           <div className="projects__item">
             <a href="https://eurekaa.io/" target="_blank">
-              <img src={proyectsImg(`./pro_web/project6.png`)} className="projects__img" />
+              <img
+                src={proyectsImg(`./pro_web/6-1.png`)}
+                className="projects__img"
+              />
             </a>
           </div>
-          <div className="projects__item">
+          {/* <div className="projects__item">
             <a href="https://practithink.com/" target="_blank">
-              <img src={proyectsImg(`./pro_web/project7.png`)} alt="" className="projects__img" />
+              <img
+                src={proyectsImg(`./pro_web/project7.png`)}
+                alt=""
+                className="projects__img"
+              />
+            </a>
+          </div> */}
+          <div className="projects__item">
+            <a href="https://www.simpsonpropertygroup.com/" target="_blank">
+              <img
+                src={proyectsImg(`./pro_web/project10.png`)}
+                alt=""
+                className="projects__img"
+              />
             </a>
           </div>
           <div className="projects__item">
-            <a href="https://eatleftys.com/" target="_blank">
-              <img src={proyectsImg(`./pro_web/project8.png`)} alt="" className="projects__img" />
+            <a href="https://eap.kirihare.jp/" target="_blank">
+              <img
+                src={proyectsImg(`./pro_web/7-1.png`)}
+                alt=""
+                className="projects__img"
+              />
             </a>
           </div>
-          <div className="projects__item">
+          {/* <div className="projects__item">
             <a href="https://www.sowltoken.com/" target="_blank">
-              <img src={proyectsImg(`./pro_web/project9.png`)} alt="" className="projects__img" />
+              <img
+                src={proyectsImg(`./pro_web/project9.png`)}
+                alt=""
+                className="projects__img"
+              />
             </a>
           </div>
           <div className="projects__item">
             <a href="https://www.simpsonpropertygroup.com/" target="_blank">
-              <img src={proyectsImg(`./pro_web/project10.png`)} alt="" className="projects__img" />
+              <img
+                src={proyectsImg(`./pro_web/project10.png`)}
+                alt=""
+                className="projects__img"
+              />
             </a>
           </div>
           <div className="projects__item">
             <a href="https://veggiecraftfarms.com/" target="_blank">
-              <img src={proyectsImg(`./pro_web/project11.png`)} alt="" className="projects__img" />
+              <img
+                src={proyectsImg(`./pro_web/project11.png`)}
+                alt=""
+                className="projects__img"
+              />
             </a>
-          </div>
+          </div> */}
         </section>
       </main>
 
@@ -135,6 +177,6 @@ const Project = () => {
 
       <Footer />
     </div>
-  )
-}
+  );
+};
 export default Project;

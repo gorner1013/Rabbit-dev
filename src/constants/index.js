@@ -1,15 +1,17 @@
 // Name and Simple Intro
-export const NAME = "Chiyo Kano";
-export const HEADER_NAME = "Chiyo Kano";
+export const NAME = "Rabbit_dev";
+export const HEADER_NAME = "Rabbit_dev";
 export const FIRST_NAME = "Kano";
 export const CREATED_BY = "Page created by " + FIRST_NAME;
 export const ABOUT_ME =
   "I am a proficient and self-motivated Software Developer with 7 years of successful experience. My passion for working in this field is immense, and I am always eager to learn the latest and most updated materials. I consistently strive to improve my skills and deliver high-quality work. Apart from my technical expertise, I possess a keen eye for design and user experience. This allows me to create intuitive and engaging interfaces that keep users coming back for more. Whether you need a new website, an overhaul of an existing application, or a custom e-commerce platform, I have the necessary expertise and experience to deliver exceptional results.I strongly believe in the values of hard work and honesty. Building long-term professional relationships with my clients is of utmost importance to me, as it ensures the success of every project.";
 
 // Contact Info
-export const SKYPE_ADDRESS = "live:.cid.b43540a77d249f4a";
-export const GITHUB_ADDRESS = "https://github.com/whitenight1201";
-export const GMAIL_ADDRESS = "mailTo:Devel_Master@outlook.com";
+export const SKYPE_ADDRESS1 = "live:.cid.b43540a77d249f4a";
+export const SKYPE_ADDRESS = "https://www.chatwork.com/chiyo_kano";
+// export const GITHUB_ADDRESS = "https://github.com/whitenight1201";
+export const GITHUB_ADDRESS = "https://github.com/devStack03";
+export const GMAIL_ADDRESS = "mailTo:Pandaren1013@gmail.com";
 export const DISCORD_ADDRESS = "https://discord.gg/develomaster_02247";
 export const SLACK_ADDRESS = "https://t.me/dev_Newstar";
 export const INSTAGRAM_ADDRESS = "";
@@ -31,39 +33,39 @@ export const WHO_I_AM_CONTENT = [
 // What i do
 export const WHAT_I_DO = [
   {
-    header: "Web Development",
+    header: "Web開発",
     content:
-      "Creation of well-structured web pages, good responsive design, attractive color palette, with interactions that give the user satisfaction when browsing the website.",
+      "適切に構成された Web ページ、優れたレスポンシブ デザイン、魅力的なカラー パレット、Web サイトを閲覧する際にユーザーに満足感を与えるインタラクションの作成。",
     icon: "fas fa-laptop",
   },
   {
-    header: "Mobile App Development",
+    header: "モバイルアプリ開発",
     content:
-      "With my expertise in Mobile/Desktop app development, we can build high-performance mobile/desktop applications tailored specifically to Android/iOS and Windows/Linux/MacOS. Your app will leverage the full potential of the operating system, resulting in optimal performance and reliability.",
+      "モバイル/デスクトップ アプリ開発の専門知識を活かして、Android/iOS および Windows/Linux/MacOS に特化した高性能のモバイル/デスクトップ アプリケーションを構築できます。アプリはオペレーティング システムの潜在能力を最大限に活用し、最適なパフォーマンスと信頼性を実現します。",
     icon: "fas fa-mobile-alt",
   },
   {
-    header: "DESIGN",
+    header: "デザイン",
     content:
-      "Creating amazing designs that engage users and reflect your brand’s essence. Transforming ideas into visually stunning and user-friendly designs. Let’s bring your online presence to life!",
+      "ユーザーを魅了し、ブランドの本質を反映する素晴らしいデザインを作成します。アイデアを視覚的に魅力的でユーザーフレンドリーなデザインに変換します。オンラインでの存在感を高めましょう。",
     icon: "fas fa-drafting-compass",
   },
   {
-    header: "WEB MARKETING",
+    header: "ウェブマーケティング",
     content:
-      "Professional web development services tailored to your needs. We create visually stunning and user-friendly websites, optimizing performance and ensuring seamless functionality. ",
+      "お客様のニーズに合わせたプロフェッショナルな Web 開発サービス。視覚的に魅力的でユーザーフレンドリーな Web サイトを作成し、パフォーマンスを最適化し、シームレスな機能を保証します。 ",
     icon: "fas fa-chart-line",
   },
   {
-    header: "SECURITY",
+    header: "安全",
     content:
-      "Transform your ideas into innovative mobile applications. Our app development services deliver intuitive and feature-rich solutions across platforms, engaging users and driving business growth.",
+      "あなたのアイデアを革新的なモバイル アプリケーションに変換します。当社のアプリ開発サービスは、プラットフォーム間で直感的で機能豊富なソリューションを提供し、ユーザーを魅了し、ビジネスの成長を促進します。",
     icon: "fa fa-thumbs-up",
   },
   {
-    header: "SUPPORT",
+    header: "サポート",
     content:
-      "From regular maintenance to timely updates and reliable troubleshooting, we keep your website running flawlessly, allowing you to focus on your core business.",
+      "定期的なメンテナンスからタイムリーなアップデート、信頼性の高いトラブルシューティングまで、当社はお客様のウェブサイトを完璧に稼働させ、お客様がコアビジネスに集中できるようにします。",
     icon: "fas fa-wrench",
   },
 ];

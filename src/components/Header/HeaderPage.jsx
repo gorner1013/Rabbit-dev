@@ -38,22 +38,22 @@ const HeaderPage = () => {
 
       <NavLink className="logo" to="/">
         <p>
-          <span>Chiyo Kano</span>
+          <span>Rabbit_dev</span>
         </p>
       </NavLink>
 
       <nav className="navbar">
         <NavLink to="/" offset={-150} duration={500}>
-          <FormattedMessage id="home" defaultMessage="Home" />
+          <FormattedMessage id="home" defaultMessage="ホーム" />
         </NavLink>
         <NavLink to="/about" offset={-150} duration={500}>
-          <FormattedMessage id="about" defaultMessage="About me" />
+          <FormattedMessage id="about" defaultMessage="私について" />
         </NavLink>
         <NavLink to="/service" offset={-150} duration={500}>
-          <FormattedMessage id="services" defaultMessage="Services" />
+          <FormattedMessage id="services" defaultMessage="サービス内容" />
         </NavLink>
         <NavLink to="/project" offset={-150} duration={500}>
-          <FormattedMessage id="projects" defaultMessage="Projects" />
+          <FormattedMessage id="projects" defaultMessage="実績" />
         </NavLink>
         {/* <div id="buttons">
           <img

@@ -21,21 +21,18 @@ const Services = () => {
       <main className="service-page">
         <section className="servicios" id="servicios">
           <h2 className="heading">
-            <FormattedMessage id="services" defaultMessage="What I do?" />
+            <FormattedMessage id="services" defaultMessage="私がやること？" />
           </h2>
           <div className="row">
             <div className="columns" data-aos="fade-up" data-aos-delay="200">
               <i className="fas fa-drafting-compass"></i>
               <h3>
-                <FormattedMessage
-                  id="design"
-                  defaultMessage="DESIGN"
-                />
+                <FormattedMessage id="design" defaultMessage="デザイン" />
               </h3>
               <p>
                 <FormattedMessage
                   id="design-info"
-                  defaultMessage="Creating amazing designs that engage users and reflect your brand’s essence. Transforming ideas into visually stunning and user-friendly designs. Let’s bring your online presence to life!"
+                  defaultMessage="ユーザーを魅了し、ブランドの本質を反映する素晴らしいデザインを作成します。アイデアを視覚的に魅力的でユーザーフレンドリーなデザインに変換します。オンラインでの存在感を高めましょう。"
                 />
               </p>
             </div>
@@ -44,13 +41,13 @@ const Services = () => {
               <h3>
                 <FormattedMessage
                   id="development"
-                  defaultMessage="WEB DEVELOPEMENT"
+                  defaultMessage="ウェブ開発"
                 />
               </h3>
               <p>
                 <FormattedMessage
                   id="development-info"
-                  defaultMessage="Professional web development services tailored to your needs. We create visually stunning and user-friendly websites, optimizing performance and ensuring seamless functionality. "
+                  defaultMessage="お客様のニーズに合わせたプロフェッショナルな Web 開発サービス。視覚的に魅力的でユーザーフレンドリーな Web サイトを作成し、パフォーマンスを最適化し、シームレスな機能を保証します。 "
                 />
               </p>
             </div>
@@ -59,13 +56,13 @@ const Services = () => {
               <h3>
                 <FormattedMessage
                   id="marketing"
-                  defaultMessage="WEB MARKETING"
+                  defaultMessage="ウェブマーケティング"
                 />
               </h3>
               <p>
                 <FormattedMessage
                   id="marketing-info"
-                  defaultMessage="Unlock the full potential of your online presence with our web marketing services. From strategic SEO and targeted campaigns to engaging content creation, we drive traffic, boost conversions, and elevate your brand’s visibility in the digital landscape."
+                  defaultMessage="当社の Web マーケティング サービスで、オンライン プレゼンスの可能性を最大限に引き出しましょう。戦略的な SEO やターゲットを絞ったキャンペーンから魅力的なコンテンツの作成まで、トラフィックを促進し、コンバージョンを高め、デジタル環境におけるブランドの認知度を高めます。"
                 />
               </p>
             </div>
@@ -74,43 +71,37 @@ const Services = () => {
               <h3>
                 <FormattedMessage
                   id="maintenance"
-                  defaultMessage="APP DEVELOPMENT"
+                  defaultMessage="アプリ開発"
                 />
               </h3>
               <p>
                 <FormattedMessage
                   id="maintenance-info"
-                  defaultMessage="Transform your ideas into innovative mobile applications. Our app development services deliver intuitive and feature-rich solutions across platforms, engaging users and driving business growth."
+                  defaultMessage="あなたのアイデアを革新的なモバイル アプリケーションに変換します。当社のアプリ開発サービスは、プラットフォーム間で直感的で機能豊富なソリューションを提供し、ユーザーを魅了し、ビジネスの成長を促進します。"
                 />
               </p>
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="600">
               <i className="fa fa-thumbs-up"></i>
               <h3>
-                <FormattedMessage
-                  id="seod"
-                  defaultMessage="SECURITY"
-                />
+                <FormattedMessage id="seod" defaultMessage="安全" />
               </h3>
               <p>
                 <FormattedMessage
                   id="seo-infodd"
-                  defaultMessage="Safeguard your online assets with our robust web security services. We offer comprehensive solutions to identify vulnerabilities, protect against cyber threats, and ensure data privacy. Trust us to fortify your digital presence and provide peace of mind."
+                  defaultMessage="当社の強力な Web セキュリティ サービスでオンライン資産を保護します。脆弱性を特定し、サイバー脅威から保護し、データのプライバシーを確​​保するための包括的なソリューションを提供します。デジタル プレゼンスの強化と安心の提供は当社にお任せください。"
                 />
               </p>
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="700">
               <i className="fas fa-wrench"></i>
               <h3>
-                <FormattedMessage
-                  id="optimizationd"
-                  defaultMessage="SUPPORT"
-                />
+                <FormattedMessage id="optimizationd" defaultMessage="サポート" />
               </h3>
               <p>
                 <FormattedMessage
                   id="optimization-infod"
-                  defaultMessage="Ensure smooth and hassle-free website operations with our comprehensive web support services. From regular maintenance to timely updates and reliable troubleshooting, we keep your website running flawlessly, allowing you to focus on your core business."
+                  defaultMessage="弊社の包括的な Web サポート サービスにより、スムーズで手間のかからない Web サイト運用が実現します。定期的なメンテナンスからタイムリーな更新、信頼性の高いトラブルシューティングまで、弊社はお客様の Web サイトを完璧に稼働させ、お客様がコア ビジネスに集中できるようにします。"
                 />
               </p>
             </div>

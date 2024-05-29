@@ -19,7 +19,7 @@ const Project = () => {
   return (
     <section className="proyectos" id="proyectos">
       <h2 className="heading">
-        <FormattedMessage id="projects" defaultMessage="Projects" />
+        <FormattedMessage id="projects" defaultMessage="実績" />
       </h2>
       <div
         className="proyect-site"
@@ -54,48 +54,58 @@ const Project = () => {
           className="proyectos-slider mySwiper"
         >
           <SwiperSlide className="caja">
-            <img src={proyectImg(`./project1.png`)} alt="proyectos" />
+            <img src={proyectImg(`./1-1.png`)} alt="proyectos" />
           </SwiperSlide>
 
           <SwiperSlide className="caja">
-            <img src={proyectImg(`./project2.png`)} alt="proyectos" />
+            <img src={proyectImg(`./2-1.png`)} alt="proyectos" />
           </SwiperSlide>
 
           <SwiperSlide className="caja">
-            <img src={proyectImg(`./project3.png`)} alt="proyectos" />
+            <img src={proyectImg(`./2-2.png`)} alt="proyectos" />
           </SwiperSlide>
 
           <SwiperSlide className="caja">
-            <img src={proyectImg(`./project4.png`)} alt="proyectos" />
+            <img src={proyectImg(`./2-3.png`)} alt="proyectos" />
           </SwiperSlide>
 
           <SwiperSlide className="caja">
-            <img src={proyectImg(`./project5.png`)} alt="proyectos" />
+            <img src={proyectImg(`./3-1.png`)} alt="proyectos" />
           </SwiperSlide>
 
           <SwiperSlide className="caja">
-            <img src={proyectImg(`./project6.png`)} alt="proyectos" />
+            <img src={proyectImg(`./7-1.png`)} alt="proyectos" />
           </SwiperSlide>
 
           <SwiperSlide className="caja">
-            <img src={proyectImg(`./project7.png`)} alt="proyectos" />
+            <img src={proyectImg(`./4-1.png`)} alt="proyectos" />
           </SwiperSlide>
 
           <SwiperSlide className="caja">
+            <img src={proyectImg(`./5-1.png`)} alt="proyectos" />
+          </SwiperSlide>
+
+          <SwiperSlide className="caja">
+            <img src={proyectImg(`./6-1.png`)} alt="proyectos" />
+          </SwiperSlide>
+
+          
+
+          {/* <SwiperSlide className="caja">
             <img src={proyectImg(`./project8.png`)} alt="proyectos" />
           </SwiperSlide>
 
           <SwiperSlide className="caja">
             <img src={proyectImg(`./project9.png`)} alt="proyectos" />
-          </SwiperSlide>
+          </SwiperSlide> */}
 
           <SwiperSlide className="caja">
             <img src={proyectImg(`./project10.png`)} alt="proyectos" />
           </SwiperSlide>
 
-          <SwiperSlide className="caja">
+          {/* <SwiperSlide className="caja">
             <img src={proyectImg(`./project11.png`)} alt="proyectos" />
-          </SwiperSlide>
+          </SwiperSlide> */}
 
         </Swiper>
         <div className="swiper-pagination"></div>

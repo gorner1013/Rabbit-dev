@@ -10,7 +10,7 @@ import { FormattedMessage } from "react-intl";
 const About = () => (
   <section className="sobre-mi" id="sobre-mi">
     <h2 className="heading">
-      <FormattedMessage id="about" defaultMessage="About Me" />
+      <FormattedMessage id="about" defaultMessage="私について" />
     </h2>
 
     <div className="row container about_section">
@@ -19,40 +19,26 @@ const About = () => (
           <FormattedMessage id="im" defaultMessage="Who I am" />
         </h3> */}
         <h4>
-          <FormattedMessage
-            id="descriptions"
-            defaultMessage="Hello! I'm Kano,"
-          />
+          <FormattedMessage id="descriptions" defaultMessage="こんにちは！" />
         </h4>
+        <p>プロフィールをご覧いただき、ありがとうございます。</p>
         <p>
-          I am a passionate senior full stack engineer with over 7 years of
-          experience in software engineering.
+          私はソフトウェアエンジニアリングで 7年以上の経験を持つ、情熱的なシニア
+          フルスタック エンジニアです。
         </p>
         <p>
           {" "}
-          Always love challenges and hard working to achieve goals. Have
-          advanced knowledge of multiple programming languages, frameworks and
-          extensive familiarity with several database structures.
+          常に挑戦を愛し、目標を達成するために懸命に努力します。複数のプログラミング言語、フレームワークに関する高度な知識と、いくつかのデータベース構造に関する豊富な知識を持っています。
         </p>
         <p>
-          In addition to the technical skills, I have a keen eye for design and
-          user experience, allowing me to create intuitive and engaging
-          interfaces that keep users coming back. Throughout my career, I have
-          been involved in both native and cross-platform development. My
-          dedication to critical thinking, meticulousness, and staying
-          up-to-date with the latest technologies has enabled me to progress to
-          the position of a senior full stack developer in my current role.
+        これらのスキルに加え、私はデザインとユーザー エクスペリエンスに対する鋭い感覚を持っているため、直感的で魅力的なインターフェースを作成し、ユーザーが繰り返しアクセスしたくなるような環境を作ることができます。これまでのキャリアを通じて、ネイティブ開発とクロスプラットフォーム開発の両方に携わってきました。批判的思考、細心の注意、最新のテクノロジーを常に把握することに専念することで、現在の職務でシニア フルスタック開発者の地位に昇進することができました。
         </p>
         <p>
-          Working as a senior developer, lead developer, I have built several
-          successful websites, mobile apps, and DeFi platforms for a large
-          number of users, and have successfully completed several projects
-          involving various technical fields depending on the business idea of
-          the client.
+        シニア開発者、リード開発者として働き、多数のユーザー向けにいくつかの成功したウェブサイト、モバイルアプリ、DeFiプラットフォームを構築し、クライアントのビジネスアイデアに応じてさまざまな技術分野に関係するいくつかのプロジェクトを成功裏に完了しました。
         </p>
         {/* <p>Due to the pandemic, I had to transition to remote work, and I discovered that it was an exciting and efficient method of working. I thoroughly enjoyed the experience and found it to be highly productive. I always strive to build long-term professional relationships with my clients. This approach ensures that every project I undertake becomes successful.</p> */}
         <div className="mas-info">
-          <a
+          {/* <a
             href={cv}
             target="_blank"
             rel="noopener noreferrer"
@@ -60,7 +46,7 @@ const About = () => (
             className="btn-codigo buttonDownload"
           >
             <FormattedMessage id="btn-cv" defaultMessage="Download CV" />
-          </a>
+          </a> */}
           <div className="mas-info-btn">
             <Link to="/about">
               <ButtomGet />
@@ -74,7 +60,7 @@ const About = () => (
         data-aos-delay="650"
       >
         {/* <h3>skills</h3> */}
-        <h4>Front-End</h4>
+        <h4>フロントエンド</h4>
         <div className="skill">
           <div>
             <img
@@ -157,7 +143,7 @@ const About = () => (
             <h5>Typescript</h5>
           </div>
         </div>
-        <h4>Back-End</h4>
+        <h4>バックエンド</h4>
         <div className="skill">
           <div>
             <img
@@ -241,7 +227,7 @@ const About = () => (
           </div>
         </div>
         <h4>
-          <FormattedMessage id="toolss" defaultMessage="Mobile App & Tools" />
+          <FormattedMessage id="toolss" defaultMessage="モバイルアプリとツール" />
         </h4>
         <div className="skill">
           <div>

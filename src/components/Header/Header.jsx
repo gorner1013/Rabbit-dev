@@ -39,24 +39,24 @@ const Header = () => {
       ></div>
 
       <a href="/Kano-portfolio" className="logo">
-        <span>Chiyo Kano</span>
+        <span>Rabbit_dev</span>
       </a>
 
       <nav className="navbar">
         <Link to="inicio" spy={true} offset={-150} href="#inicio">
-          <FormattedMessage id="home" defaultMessage="Home" />
+          <FormattedMessage id="home" defaultMessage="ホーム" />
         </Link>
         <Link to="sobre-mi" spy={true} offset={-150} href="#sobre-mi">
-          <FormattedMessage id="about" defaultMessage="About me" />
+          <FormattedMessage id="about" defaultMessage="私について" />
         </Link>
         <Link to="servicios" spy={true} offset={-150} href="#servicios">
-          <FormattedMessage id="services" defaultMessage="Services" />
+          <FormattedMessage id="services" defaultMessage="サービス内容" />
         </Link>
         <Link to="proyectos" spy={true} offset={-150} href="#proyectos">
-          <FormattedMessage id="projects" defaultMessage="Projects" />
+          <FormattedMessage id="projects" defaultMessage="実績" />
         </Link>
         <Link to="contactos" spy={true} offset={-150} href="#contactos">
-          <FormattedMessage id="contact" defaultMessage="Contact" />
+          <FormattedMessage id="contact" defaultMessage="お問い合わせ" />
         </Link>
         {/* <div id="buttons">
           <img

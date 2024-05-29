@@ -15,10 +15,10 @@ const Footer = () => {
           <p>
             <FormattedMessage
               id="footer-infos"
-              defaultMessage="Page created by Kano"
+              defaultMessage="Rabbit_dev によって作成されたページ"
             />
           </p>
-          <p>&copy; {fecha}. All Rights Reserved.</p>
+          <p>&copy; {fecha}. 無断転載を禁じます。</p>
         </div>
         <div className="redes-sociales">
           <a

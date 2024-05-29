@@ -9,7 +9,7 @@ export const ButtomGet = () => {
         <button className="cssbuttons-io-button">  
             <FormattedMessage
                 id='btn-know-more'
-                defaultMessage='Read more'
+                defaultMessage='続きを読む'
             />
             <div className="icon">
                 <Icon/>
