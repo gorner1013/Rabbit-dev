@@ -104,11 +104,11 @@ const About = () => (
           </div>
           <div>
             <img
-              alt="Tailwindcss"
+              alt="Vue.Js"
               className="icons-skils"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
             />
-            <h5>Tailwindcss</h5>
+            <h5>Vue.Js</h5>
           </div>
           <div>
             <img
