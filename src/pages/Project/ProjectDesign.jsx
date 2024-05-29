@@ -61,7 +61,7 @@ const ProjectDesign = () => {
                     </nav>
                 </section>
 
-                <section className="projects__grid design">
+                {/* <section className="projects__grid design">
                     <div className="projects__item">
                         <img src={proyectsImg(`./pro_design/d_1.png`)} alt="" className="projects__img" />
                     </div>
@@ -95,7 +95,7 @@ const ProjectDesign = () => {
                     <div className="projects__item">
                         <img src={proyectsImg(`./pro_design/d_11.jpg`)} alt="" className="projects__img" />
                     </div>
-                </section>
+                </section> */}
             </main>
 
             <ScrollToTop />
